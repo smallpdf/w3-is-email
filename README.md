@@ -9,7 +9,7 @@ Email address validation using the regex from the w3 specs for html input field 
 
 ```
 
-https://www.w3.org/TR/html-markup/input.email.html
+https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type%3Demail)
 
 
 ## Usage
