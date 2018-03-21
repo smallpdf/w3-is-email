@@ -1,7 +1,7 @@
 {
   "name": "@smallpdf/is-email",
-  "version": "0.0.1",
-  "description": "Email address validation using the regex from the w3 specs for <input type=\"email\">",
+  "version": "1.0.0",
+  "description": "Email address validation using the regex from the specs for an InputHTMLElement",
   "homepage": "https://github.com/smallpdf/is-email",
   "main": "is-email",
   "author": "Manuel Stofer",
