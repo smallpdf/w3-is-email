@@ -1,8 +1,7 @@
 var assert = require('assert');
-var isEmail = require('../')
+var isEmail = require('../');
 
-describe('w3-is-email', function() {
-
+describe('is-email', function() {
   var validEmails = [
     'test@example.org',
     'test+test@example.org',

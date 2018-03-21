@@ -1,23 +1,26 @@
-# w3-is-email
+<h1 align="center">
 
-Email address validation using the regex from the w3 specs for html input field (type="email")
+</h1>
 
+# @smallpdf/is-email
 
-```JS
+> Email address validation using the regex from the specs for an [InputHTMLElement](href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email).
 
-/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+This package provide a single function to test a value against the <a href="https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type%3Demail)">specifications</a> of the an email InputHTMLElement.
 
+## Installation
 
 ```
-
-https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type%3Demail)
-
+$ npm install @smallpdf/is-email
+```
 
 ## Usage
 
-```JS
-
-var isEmail = require('w3-is-email');
-isEmail('test@example.org'); // true
-
+```js
+const isEmail = require('@smallpdf/is-email');
+console.log(isEmail('test@example.org')); // true
 ```
+
+## License
+
+[ISC License](LICENSE)
