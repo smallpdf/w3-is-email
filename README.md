@@ -5,11 +5,12 @@ Email address validation using the regex from the w3 specs for html input field 
 
 ```JS
 
-/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+
 
 ```
 
-https://www.w3.org/TR/html-markup/input.email.html
+https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type%3Demail)
 
 
 ## Usage
