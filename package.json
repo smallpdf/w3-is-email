@@ -1,6 +1,6 @@
 {
   "name": "@smallpdf/is-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Email address validation using the regex from the specs for an InputHTMLElement",
   "homepage": "https://github.com/smallpdf/is-email",
   "main": "is-email",
@@ -29,6 +29,6 @@
     "test": "mocha test"
   },
   "devDependencies": {
-    "mocha": "^3.1.2"
+    "mocha": "^8.2.1"
   }
 }
