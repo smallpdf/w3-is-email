@@ -29,6 +29,6 @@
     "test": "mocha test"
   },
   "devDependencies": {
-    "mocha": "^3.1.2"
+    "mocha": "^8.2.1"
   }
 }
